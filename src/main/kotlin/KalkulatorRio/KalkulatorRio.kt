@@ -1,4 +1,6 @@
-class Kalkulator {
+package KalkulatorRio
+
+class KalkulatorRio {
     fun tambah(a: Double, b: Double): Double {
         return a + b
     }
@@ -30,7 +32,7 @@ fun main() {
     val operasi = readLine()
 
     // Membuat objek kalkulator
-    val kalkulator = Kalkulator()
+    val kalkulator = KalkulatorRio()
 
     // Melakukan operasi sesuai dengan input
     val hasil = when (operasi) {
