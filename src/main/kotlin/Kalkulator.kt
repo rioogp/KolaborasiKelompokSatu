@@ -1,5 +1,5 @@
 fun main(){
-
+    //Maulid
     print("Masukan angka pertama: ")
     var angkaPertama = readLine()!!.toInt()//disini untuk memasuka angka pertama
     print("Masukan angka kedua: ")
