@@ -1,6 +1,6 @@
 package KalkulatorReno
 
-class Kalkulator {
+class KalkulatorR {
     fun tambah(a: Int, b: Int): Int {
         return a + b
     }

@@ -1,5 +1,7 @@
+import KalkulatorReno.KalkulatorR
+
 fun main() {
-    val calculator = Kalkulator()
+    val calculator = KalkulatorR()
 
     print("Masukkan angka Pertama : ")
     val a = readLine()!!.toInt()
